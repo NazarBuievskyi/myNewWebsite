@@ -27,7 +27,7 @@ export function AboutSection() {
                 <motion.button variants={fade}>Contact me</motion.button>
             </Description>
             <Image>
-                <motion.img variants={photoAnimation} src={home1} alt="guy with camera"/>
+                <motion.img variants={photoAnimation}  src={home1} alt="guy with camera"/>
             </Image>
         <Wave/>
         </About>

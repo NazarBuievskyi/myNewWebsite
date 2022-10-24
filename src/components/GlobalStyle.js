@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: #1b1b1b;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
   }
 
   button {
@@ -31,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
 
   h2 {
     font-weight: lighter;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   h3 {
