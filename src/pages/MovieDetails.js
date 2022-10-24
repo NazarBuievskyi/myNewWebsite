@@ -70,6 +70,11 @@ const Awards = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 967px) {
+    display: block;
+    margin: 2rem 2rem;
+
+  }
 `;
 
 const AwardStyle = styled.div`
@@ -93,7 +98,8 @@ const AwardStyle = styled.div`
 
 const ImageDisplay = styled.div`
   min-height: 50vh;
-  img{
+
+  img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
